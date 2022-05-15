@@ -1,0 +1,233 @@
+/* commit */
+
+
+.heading-of {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: #011729;
+  font-weight: bold;
+  line-height: 48px;
+  /* font-family: 'Source Sans Pro', sans-serif; */
+  font-family: 'LibreCaslonText-Bold';
+  margin-top: 80px;
+}
+
+.para-of {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 17px;
+  color: #011729;
+  line-height: 25px;
+  font-family: 'Source_Sans_Pro';
+  /* font-family: 'Source Sans Pro', sans-serif; */
+}
+
+.icon-link svg.MuiSvgIcon-root {
+  font-size: 15px;
+}
+
+a.icon-link {
+  color: #3dcdb0;
+  text-decoration: none;
+}
+
+.feature.col h2 {
+  margin-top: 20px;
+}
+
+.button-of {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.button-of a {
+  text-decoration: none;
+  color: #043761;
+  font-size: 18px;
+  border: 2px solid #043761;
+  padding: 7px 26px;
+  border-radius: 4px;
+}
+
+.button-of a:hover {
+  background: #043761;
+  color: white;
+}
+
+.back-of {
+  width: 100%;
+  float: left;
+  background: #071d2e;
+  margin-top: 90px;
+}
+
+.button-get-of button.btn.btn-primary.btn-lg.px-4.me-md-2 {
+  margin-top: 10px;
+}
+
+.demo-of {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 145px;
+  color: white;
+  /* font-size: 30px;
+  line-height: 36px;
+  font-weight: bold; */
+}
+
+.button-get-of {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin: 50px 0px 145px 0px;
+}
+
+.contact-c {
+  margin: 130px 0px 50px 0px;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .feature.col p {
+    padding: 0px 45px 0px 0px;
+  }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .feature.col p {
+    padding: 0px 45px 0px 0px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .heading-of{
+    font-size: 34px;
+  }
+  .para-of {
+    font-size: 18px;
+  }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .heading-of{
+    font-size: 30px;
+  }
+
+  .para-of {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .heading-of{
+    font-size: 20px;
+  }
+
+  .para-of {
+    font-size: 16px;
+  }
+
+  .feature.col p {
+    font-size: 16px !important;
+  }
+
+  .button-of a{
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .heading-of{
+    font-size: 18px;
+  }
+
+
+  .para-of {
+    font-size: 16px;
+  }
+
+  .feature.col p {
+    font-size: 16px !important;
+  }
+
+  .button-of a{
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+
+  /* .demo-of {
+    font-size: 20px;
+  } */
+}
+
+@media (max-width: 319px) {
+  .heading-of{
+    font-size: 14px;
+  }
+
+  .para-of {
+    font-size: 14px !important;
+  }
+
+
+
+
+  .feature.col p {
+    font-size: 16px !important;
+  }
+
+  .button-of a{
+    font-size: 16px;
+    padding: 8px 18px;
+  }
+/* 
+  .demo-of {
+    font-size: 18px;
+  } */
+}
+

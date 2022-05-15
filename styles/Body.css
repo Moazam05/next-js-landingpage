@@ -1,0 +1,375 @@
+/* commit */
+.bodyWrap {
+  width: 100%;
+  float: left;
+}
+.f-body {
+  display: flex;
+  align-items: center;
+}
+.first {
+  width: 42%;
+  float: left;
+}
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 36px;
+  color: #011729;
+}
+
+.description {
+  font-size: 18px;
+  margin-top: 22px;
+  line-height: 28px;
+  color: #011729;
+}
+
+.descriptiontwo {
+  font-size: 18px;
+  margin-top: 22px;
+  line-height: 28px;
+  color: #011729;
+}
+.middle {
+  width: 8%;
+  float: left;
+}
+
+.background-body{
+  width: 100%;
+  float: left;
+  /* background: orange; */
+}
+
+.last {
+  width: 48%;
+  float: left;
+}
+
+.img img {
+  width: 100%;
+}
+
+.link {
+  margin-top: 20px;
+  cursor: pointer;
+}
+.link a {
+  color: #3dcdb0;
+  text-decoration: none;
+  font-size: 18px;
+  font-style: italic;
+}
+.bodyWrap a.icon-link {
+  font-size: 18px;
+  /* font-weight: 300; */
+  font-family: 'Source_Sans_Pro';
+}
+.bodyWrap h2 {
+  margin-bottom: 20px !important;
+}
+
+.bodyWrap p {
+  margin-bottom: 2rem !important;
+}
+
+.bodyWrap .icon-link svg.MuiSvgIcon-root {
+  margin-left: 5px !important;
+}
+
+.bodyWrap .icon-link svg.MuiSvgIcon-root {
+  font-size: 15px !important;
+}
+
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+  color: #3dcdb0;
+  font-size: 15px;
+  /* margin-left: 15px; */
+}
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+.row.align-items-center.g-5.py-5.mar-by {
+  margin: 75px 0px;
+}
+
+
+@media (min-width: 1281px) {
+  
+    .mbl-show-body {
+        display: none;
+    }
+    .desk-show-body {
+        display: block;
+    }   
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .mbl-show-body {
+        display: none;
+    }
+    .desk-show-body {
+        display: block;
+    }  
+
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 40px;
+    } */
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 25px 0px;
+    }
+
+    .bodyWrap .link a {
+      font-size: 16px;
+    }
+
+    /* svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 992px) and (max-width: 1024px) {
+    
+    .mbl-show-body {
+        display: none;
+    }
+    .desk-show-body {
+        display: block;
+    }  
+    
+
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 36px;
+    } */
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 25px 0px;
+    }
+
+    .bodyWrap .link a {
+      font-size: 16px;
+    }
+/* 
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    
+ 
+    .mbl-show-body {
+        display: block;
+    }
+    .desk-show-body {
+        display: none;
+    }   
+    
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 34px;
+    } */
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 0px;
+    }
+
+    .bodyWrap .link a {
+      font-size: 16px;
+    }
+/* 
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+
+    .bodyWrap .col-10.col-sm-8.col-lg-6 {
+      margin: 0px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 576px) and (max-width: 767px) {
+
+    .mbl-show-body {
+        display: block;
+    }
+    .desk-show-body {
+        display: none;
+    }  
+
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 30px;
+    } */
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 0px;
+    }
+
+    .bodyWrap .link a {
+      font-size: 16px;
+    }
+/* 
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+
+    .bodyWrap .col-10.col-sm-8.col-lg-6 {
+      margin: 0px;
+    }
+    
+    
+  }
+
+  @media (min-width: 481px) and (max-width: 575px) {
+    .mbl-show-body {
+      display: block;
+  }
+  .desk-show-body {
+      display: none;
+  } 
+/* 
+  .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+    font-size: 20px;
+  } */
+
+  .row.align-items-center.g-5.py-5.mar-by {
+    margin: 0px;
+  }
+
+  .bodyWrap .link a {
+    font-size: 16px;
+  }
+/* 
+  svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+    margin-left: 12px;
+  } */
+
+  .bodyWrap .col-10.col-sm-8.col-lg-6 {
+    margin: 0px;
+  }
+  .bodyWrap .link a {
+    font-size: 15px;
+  }
+
+  .bodyWrap .lead {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  }
+  
+  
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .mbl-show-body {
+        display: block;
+    }
+    .desk-show-body {
+        display: none;
+    }  
+
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 18px;
+    } */
+  
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 0px;
+    }
+
+/*   
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+  
+    .bodyWrap .col-10.col-sm-8.col-lg-6 {
+      margin: 0px;
+    }
+    .bodyWrap .link a {
+      font-size: 15px;
+    }
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      padding-top: 2rem !important;
+    }
+
+
+  .bodyWrap .lead {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  }
+
+  
+
+
+
+  @media (max-width: 319px) {
+  
+    .mbl-show-body {
+      display: block;
+  }
+  .desk-show-body {
+      display: none;
+  }  
+
+    /* .bodyWrap h1.display-5.fw-bold.lh-1.mb-3 {
+      font-size: 14px;
+    }
+   */
+    .row.align-items-center.g-5.py-5.mar-by {
+      margin: 0px;
+    }
+
+/*   
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeSmall {
+      margin-left: 12px;
+    } */
+  
+    .bodyWrap .col-10.col-sm-8.col-lg-6 {
+      margin: 0px;
+    }
+    .bodyWrap .link a {
+      font-size: 12px;
+    }
+
+    .row.align-items-center.g-5.py-5.mar-by {
+      padding-top: 2rem !important;
+    }
+
+
+  .bodyWrap .lead {
+    font-size: 12px !important;
+    line-height: 16px !important;
+  }
+}

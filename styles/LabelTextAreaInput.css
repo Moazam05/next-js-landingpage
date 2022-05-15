@@ -1,0 +1,64 @@
+/* commit */
+
+
+.ltai_container{
+    display: flex;
+    /* background-color: cadetblue; */
+    /* align-items: center; */
+}
+.ltai_container .ltai_label{
+    /* font-size: 18px; */
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #666666;
+}
+.ltai_container .ltai_input_container{
+
+    margin-left: 20px;
+}
+.ltai_container .ltai_input_container .ltai_input{
+    /* all:unset; */
+    box-sizing: border-box;
+    /* border: 1px solid #3dcdb0 !important; */
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+    font-size: 20px;
+    /* font-weight: 400; */
+    padding: 10px;
+    outline: none;
+    height: 48px;
+    color: #646464;
+    vertical-align: middle;
+    /* font-family: 'Poppins', sans-serif; */
+    /* width: 300px; */
+    height: 100px;
+    line-height: 1.6em;
+    box-sizing: border-box;
+    resize: none;
+    font-family: 'Source_Sans_Pro';
+
+}
+.ltai_container .ltai_input_container .ltai_error_text{
+    margin-top: 5px;
+    font-size: 12px !important;
+    color: red !important;
+    text-align: left;
+    margin-bottom: 0px;
+}
+p.ltai_label {
+    width: 100% !important;
+    float: left;
+    font-weight: unset !important;
+    color: #212529 !important;
+    font-family: 'Source_Sans_Pro';
+}
+
+.ltai_container .ltai_input_container .ltai_input{
+    width: 100%;
+}
+
+.ltai_input_container {
+    width: 100%;
+}
+

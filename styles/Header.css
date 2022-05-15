@@ -1,0 +1,279 @@
+/* commit */
+
+.wrapHeader {
+  border-bottom: 1px solid orange;
+}
+
+nav.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+  background: white !important;
+  box-shadow: 0px 2px 4px #110c0c54;
+}
+
+.nav-link {
+  padding: 0px !important;
+}
+.left {
+  display: flex;
+}
+
+.branding-h {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* rgba(0,0,0,.55) */
+
+/* hover */
+/* rgba(0,0,0,.7) */
+
+.navbar-light .navbar-toggler {
+  color: unset !important;
+  border-color: unset !important;
+  border: none !important;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+.nav-item.f a {
+  text-decoration: none;
+  /* margin: 0px 0px 0px 20px; */
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+}
+.nav-item.f a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-item.s a {
+  text-decoration: none;
+  /* margin: 0px 0px 0px 20px; */
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+}
+.nav-item.s a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-item.t a {
+  text-decoration: none;
+  /* margin: 0px 0px 0px 20px; */
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 400;
+}
+.nav-item.t a:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+li.nav-item.t {
+  margin-left: 55px;
+}
+
+.nav-item.f {
+  margin: 0px 55px;
+}
+
+.img {
+  margin-right: 20px;
+}
+
+.li {
+  margin: 0px 10px;
+}
+
+.practice {
+  font-size: 28px !important;
+  color: #043662;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.base {
+  font-size: 28px;
+  color: #0d6a99;
+  font-weight: bold;
+  margin-left: 4px;
+}
+.base a {
+  margin-left: 77px;
+  text-decoration: underline;
+  text-decoration: none;
+  color: #011729;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.navBtn {
+  padding: 4px 48px;
+  font-size: 20px;
+  border-radius: 4px;
+  background: transparent;
+  border: 1px solid #3dcdb0;
+  color: #3dcdb0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+button.btn.btn-outline-success {
+  width: 190px;
+  font-size: 18px;
+  border-color: #3dcdb0;
+  color: #fff;
+  background-color: #3dcdb0;
+  border-color: #3dcdb0;
+
+  /* position: relative;
+  right: 1668px;
+  top: 503px; */
+}
+
+.navBtn:hover {
+  background: #3dcdb0;
+  color: white;
+}
+
+.img-h {
+  margin-right: 20px;
+}
+
+.logo-h {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span.pract-h {
+  margin-left: 20px !important;
+  font-size: 28px !important;
+  color: #043662;
+  font-weight: bold;
+}
+
+span.base-h {
+  margin-left: 10px !important;
+  font-size: 28px;
+  color: #0d6a99;
+  font-weight: bold;
+}
+
+/* li.nav-item.j {
+  margin: 0px 55px;
+} */
+
+/* li.nav-item {
+  margin: 0px 15px;
+} */
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-item.f {
+    margin: 0px;
+  }
+
+  li.nav-item.t {
+    margin: 0px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .nav-item.f {
+    margin: 0px;
+  }
+
+  li.nav-item.t {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .nav-item.f {
+    margin: 0px;
+  }
+
+  li.nav-item.t {
+    margin: 0px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  span.pract-h {
+    font-size: 20px !important;
+  }
+
+  span.base-h {
+    font-size: 20px !important;
+  }
+
+  .nav-item.f {
+    margin: 0px;
+  }
+  li.nav-item.t {
+    margin: 0px;
+  }
+}
+
+@media (max-width: 319px) {
+  span.pract-h {
+    font-size: 20px !important;
+  }
+
+  span.base-h {
+    font-size: 20px !important;
+  }
+
+  .nav-item.f {
+    margin: 0px;
+  }
+
+  li.nav-item.t {
+    margin: 0px;
+  }
+}

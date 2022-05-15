@@ -1,0 +1,249 @@
+/* commit */
+
+
+.li_container {
+  display: flex;
+  /* background-color: cadetblue; */
+  /* align-items: center; */
+}
+.li_container .li_label {
+  /* font-size: 18px; */
+  font-weight: bold;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #666666;
+}
+.login-inner-wrap label.li_label {
+  width: 125px;
+}
+.li_container .li_input_container {
+  margin-left: 20px;
+}
+/* my login style */
+.li_container .li_input_container .li_input {
+  box-sizing: border-box;
+  /* border: 1px solid #3dcdb0 !important; */
+  border: 1px solid #E0E0E0 !important;
+  display: inline-block;
+  font-size: 20px;
+  line-height: 30px;
+  outline: none;
+  height: 48px;
+  color: #646464;
+  border-radius: 4px;
+  padding: 10px;
+  /* width: 300px; */
+  font-family: 'Source_Sans_Pro';
+}
+.li_container .li_input_container .li_input:active {
+  border: solid 2px #94a4b4;
+}
+.li_container .li_input_container .li_error_text {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 12px !important;
+  color: red !important;
+  text-align: left;
+}
+input#duplicate {
+  border: solid 2px red !important;
+}
+
+.li_input_container {
+  width: 100%;
+}
+
+input.li_input {
+  width: 100% !important;
+}
+
+
+
+.button-con {
+  width: 100%;
+  float: left;
+  text-align: center;
+  /* margin-top: 70px; */
+  margin: 25px 0px 120px 0px;
+}
+
+.button-con
+  button.MuiButtonBase-root.MuiButton-root {
+  border-radius: 4px;
+  background: #3dcdb0;
+  width: 190px;
+  height: 38px;
+  /* font-size: 18px; */
+}
+
+
+
+.drop_down_input_error_text {
+  margin-top: 5px !important;
+  font-size: 12px !important;
+  color: red !important;
+  margin-bottom: 0px;
+  /* text-align: left; */
+}
+
+.react-tel-input {
+  margin-left: 2% !important;
+}
+
+.react-tel-input .form-control {
+  border-radius: 4px !important;
+  border-color: #E0E0E0 !important;
+  height: 48px !important;
+  width: 98% !important;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .react-tel-input {
+    margin-left: 3% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 97% !important;
+  }
+  
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .react-tel-input {
+    margin-left: 3% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 97% !important;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  .react-tel-input {
+    margin-left: 4% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 96% !important;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+  
+  .react-tel-input {
+    margin-left: 5% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 95% !important;
+  }
+  
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+  .react-tel-input {
+    margin-left: 3% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 97% !important;
+  }
+
+  .mbile-c{
+    margin-right: 15px;
+  }
+
+  .mbl-sn{
+    margin-top: 24px;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .react-tel-input {
+    margin-left: 5% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 95% !important;
+  }
+
+  .mbile-c{
+    margin-right: 15px;
+  }
+
+  .mbl-sn{
+    margin-top: 24px;
+  }
+  
+}
+
+@media (max-width: 319px)  {
+  .react-tel-input {
+    margin-left: 5% !important;
+  }
+  
+  .react-tel-input .form-control {
+ 
+    width: 95% !important;
+  }
+
+  .mbile-c{
+    margin-right: 15px;
+  }
+
+  .mbl-sn{
+    margin-top: 24px;
+  }
+}

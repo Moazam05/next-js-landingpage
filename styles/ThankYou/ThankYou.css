@@ -1,0 +1,30 @@
+.wrap-than{
+  width: 100%;
+  float: left;
+  background: #F2F6FC;
+}
+
+.img-ty {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.thank-ty {
+  width: 100%;
+  float: left;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.msg-ty {
+  width: 100%;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+line-height: 30px;
+font-weight: 100;
+}

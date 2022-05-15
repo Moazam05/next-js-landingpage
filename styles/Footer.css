@@ -1,0 +1,78 @@
+/* commit */
+
+
+.footer-f{
+    width: 100%;
+    float: left;
+    /* background-color: orange; */
+}
+.practice-f{
+    margin-top: 65px;
+    margin-left: 25px !important;
+}
+
+h6.fw-bold.mb-4 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.link-f a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+}
+
+.footer-f footer.text-center.text-lg-start.text-muted {
+    background: #043761;
+}
+
+
+span.pract-h.f {
+    color: #fff;
+    margin-left: 15px !important;
+}
+span.base-h.f{
+    color: #0D6A99;
+    margin-left: 4px !important;
+}
+
+.footer-f p {
+    color: #fff !important;
+}
+
+p.spa-f {
+    margin-bottom: 150px;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    p.spa-f {
+        margin-bottom: 100px;
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 575px) {
+    p.spa-f {
+        margin-bottom: 100px;
+    }
+  }
+  
+  
+  /* 
+      ##Device = Most of the Smartphones Mobiles (Portrait)
+      ##Screen = B/w 320px to 479px
+    */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    p.spa-f {
+        margin-bottom: 50px;
+    }
+  }
+  
+  @media (max-width: 319px) {
+    p.spa-f {
+        margin-bottom: 30px;
+    }
+  }
+  
+  
