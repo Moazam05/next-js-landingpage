@@ -32,6 +32,7 @@ yarn-error.log*
 # production
 /build
 
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -48,7 +49,16 @@ yarn-error.log*
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
+.history
 .ionide
+
+# Support for Project snippet scope
+.vscode/*.code-snippets
+
+# Ignore code-workspaces
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
 # misc
 .DS_Store
